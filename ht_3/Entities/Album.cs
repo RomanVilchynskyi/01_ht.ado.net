@@ -19,6 +19,6 @@ namespace ht_3.Entities
         public int ArtistId { get; set; }
         public Artist Artist { get; set; }
         public List<Track> Tracks { get; set; }
-
+        public double Rating { get; set; }
     }
 }
